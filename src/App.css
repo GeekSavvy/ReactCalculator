@@ -1,0 +1,146 @@
+@import url(https://allfont.net/allfont.css?fonts=digital-7);
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, rgb(128, 185, 128) 0%, rgb(133, 146, 122) 100%); 
+}
+
+
+
+.calculator {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(43, 42, 42);
+  font-size: 30px;
+  box-shadow: 10px 10px 10px rgb(117, 141, 117),
+                          15px 15px 10px rgb(117, 141, 117),
+                          20px 20px 10px rgb(117, 141, 117),
+                          25px 25px 10px rgb(117, 141, 117),
+                          30px 30px 10px rgb(117, 141, 117),
+                          35px 35px 10px rgb(117, 141, 117),
+                          40px 40px 10px rgb(117, 141, 117),
+                          45px 45px 10px rgb(117, 141, 117),
+                          50px 50px 10px rgb(117, 141, 117),
+                          55px 55px 10px rgb(117, 141, 117),
+                          60px 60px 10px rgb(117, 141, 117),
+                          65px 65px 10px rgb(117, 141, 117),
+                          70px 70px 10px rgb(117, 141, 117),
+                          75px 75px 10px rgb(117, 141, 117),
+                          80px 80px 10px rgb(117, 141, 117),
+                          85px 85px 10px rgb(117, 141, 117),
+                          90px 90px 10px rgb(117, 141, 117),
+                          95px 95px 10px rgb(117, 141, 117),
+                          100px 100px 10px rgb(117, 141, 117),
+                          105px 105px 10px rgb(117, 141, 117),
+                          110px 110px 10px rgb(117, 141, 117),
+                          120px 120px 10px rgb(117, 141, 117),
+                          125px 125px 10px rgb(117, 141, 117),
+                          130px 130px 10px rgb(117, 141, 117),
+                          135px 135px 10px rgb(117, 141, 117),
+                          140px 140px 10px rgb(117, 141, 117),
+                          150px 150px 10px rgb(117, 141, 117),
+                          160px 160px 10px rgb(117, 141, 117),
+                          170px 170px 10px rgb(117, 141, 117),
+                          180px 180px 10px rgb(117, 141, 117),
+                          190px 190px 10px rgb(117, 141, 117),
+                          200px 200px 10px rgb(117, 141, 117),
+                          210px 210px 10px rgb(117, 141, 117),
+                          220px 220px 10px rgb(117, 141, 117),
+                          230px 230px 10px rgb(117, 141, 117),
+                          240px 240px 10px rgb(117, 141, 117),
+                          250px 250px 10px rgb(117, 141, 117),
+                          260px 260px 10px rgb(117, 141, 117),
+                          270px 270px 10px rgb(117, 141, 117),
+                          280px 280px 10px rgb(117, 141, 117),
+                          290px 290px 10px rgb(117, 141, 117),
+                          300px 300px 10px rgb(117, 141, 117),
+                          310px 310px 10px rgb(117, 141, 117),
+                          320px 320px 10px rgb(117, 141, 117),
+                          330px 330px 10px rgb(117, 141, 117),
+                          340px 340px 10px rgb(117, 141, 117),
+                          350px 350px 10px rgb(117, 141, 117),
+                          360px 360px 10px rgb(117, 141, 117),
+                          370px 370px 10px rgb(117, 141, 117),
+                          380px 380px 10px rgb(117, 141, 117),
+                          390px 390px 10px rgb(117, 141, 117);
+}
+
+
+form input {
+  /* border: 1px solid black; */
+  outline: 2px;
+  overflow: inherit;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(245, 245, 245, 0.918);
+  border-radius: 10px;
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+form button {
+  /* border: 1px solid black; */
+  outline: 2px;
+  overflow: inherit;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(245, 245, 245, 0.918);
+  border-radius: 10px;
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+
+
+form input[type="button"]:hover {
+  background-color: rgba(240, 232, 232, 0.808);
+}
+
+
+
+
+form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+  
+}
+
+form .display input {  
+  text-align: right;
+  box-shadow: 0px 0px 10px black, 1px 1px 10px black;
+  flex: 1;
+  padding: 5px 10px;
+  background-color: rgba(245, 245, 245, 0.747);
+  font-family: 'Digital-7', arial;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+form .display button {  
+  text-align: right;
+  box-shadow: 0px 0px 10px black, 1px 1px 10px black;
+  flex: 1;
+  padding: 5px 10px;
+  background-color: rgba(245, 245, 245, 0.747);
+  font-family: 'Digital-7', arial;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+form input.equal {
+  width: 60px;
+  background-color: rgb(218, 124, 62);
+  color: white;
+  font-size: 30px;
+}
+
+
